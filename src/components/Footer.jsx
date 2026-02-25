@@ -1,5 +1,6 @@
 import { MdEmail } from "react-icons/md";
 import { BsCircleFill } from "react-icons/bs";
+import { FaGithub, FaLinkedin ,FaInstagram} from "react-icons/fa"
 
 const Footer = () => {
   return (
@@ -27,7 +28,7 @@ const Footer = () => {
         </p>
 
         {/* Right */}
-        <div className="flex gap-6 text-sm">
+        {/* <div className="flex gap-6 text-sm">
           <a href="#about" className="hover:text-purple-400 transition">
             About
           </a>
@@ -37,9 +38,40 @@ const Footer = () => {
           <a href="#contact" className="hover:text-purple-400 transition">
             Contact
           </a>
-        </div>
+        </div> */}
+      
 
-      </div>
+  <div className="flex justify-center gap-6 py-6 text-gray-400">
+  <a
+    href="https://github.com/ayesha-777"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-white transition-colors"
+  >
+    <FaGithub size={28} />
+  </a>
+
+  <a
+    href="https://www.linkedin.com/in/ayesha-rafiq-686822280"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-blue-500 transition-colors"
+  >
+    <FaLinkedin size={28} />
+  </a>
+   <a
+    href="https://www.instagram.com/in/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-pink-700 transition-colors"
+  >
+    <FaInstagram size={28} />
+  </a>
+</div>
+</div>
+  
+
+      
     </footer>
   );
 };
