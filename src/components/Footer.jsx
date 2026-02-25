@@ -9,13 +9,13 @@ const Footer = () => {
       {/* Name + Email Centered */}
       <div className="text-center mb-10">
         <h2 className="text-3xl font-bold text-white flex items-center justify-center gap-2">
-          Mehar Ayesha
+          Ayesha
           <BsCircleFill className="text-purple-500 text-sm" />
         </h2>
 
         <div className="flex items-center justify-center gap-2 mt-3 text-sm hover:text-purple-400 transition">
           <MdEmail className="text-lg" />
-          <span>meharayesha@example.com</span>
+          <span>meharayesha777@gmail.com</span>
         </div>
       </div>
 
@@ -24,21 +24,10 @@ const Footer = () => {
 
         {/* Left */}
         <p className="text-sm">
-          © {new Date().getFullYear()} Mehar Ayesha. All rights reserved.
+          © {new Date().getFullYear()} Ayesha Rafiq. All rights reserved.
         </p>
 
-        {/* Right */}
-        {/* <div className="flex gap-6 text-sm">
-          <a href="#about" className="hover:text-purple-400 transition">
-            About
-          </a>
-          <a href="#work" className="hover:text-purple-400 transition">
-            Work
-          </a>
-          <a href="#contact" className="hover:text-purple-400 transition">
-            Contact
-          </a>
-        </div> */}
+       
       
 
   <div className="flex justify-center gap-6 py-6 text-gray-400">
