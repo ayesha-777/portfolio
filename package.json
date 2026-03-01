@@ -2,6 +2,7 @@
   "name": "react",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://ayesha-777.github.io/portfolio",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -32,7 +33,6 @@
     "globals": "^16.3.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.18",
-    "vite": "^7.1.2",
-    "homepage": "https://ayesha-777.github.io/portfolio"
+    "vite": "^7.1.2"
   }
 }
