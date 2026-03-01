@@ -40,7 +40,12 @@ const Work = ({ works }) => {
             </div>
           ))}
         </div>
-
+<div class="flex justify-center mt-6">
+  <a href="https://github.com/ayesha-777" target="_blank"
+     class="px-6 py-3 bg-white  text-black rounded-lg hover:bg-gray-400 transition">
+     View More Projects on GitHub
+  </a>
+</div>
       </div>
     </section>
   );

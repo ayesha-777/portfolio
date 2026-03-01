@@ -39,13 +39,37 @@ Working on real projects has helped me understand how ideas turn into functional
             </h3>
             <h1 className="items-start text-2xl">Languages</h1>
             <p className="text-gray-400 text-sm leading-relaxed">
-              HTML,CSS,JavaSCcript
-              <br />
-              React JS
+        
+              
+                <ul className="list-disc">
+    <li>HTML</li>
+    <li>CSS</li>
+<li>JavaScript</li>
+            
+    </ul>
             </p>
           </div>
         
-        
+        <div className="rounded-2xl p-6  border border-white-400
+                          hover:-translate-y-2 hover:scale-[1.02] hover:border-purple-400
+                          hover:shadow-lg hover:shadow-purple-500/20
+                          transition-all duration-300 ease-out">
+            <h3 className="text-xl font-medium  mb-3">
+          
+
+           <FaBriefcase className="text-3xl text-white-400" />
+
+            </h3>
+            <h1 className="items-start text-2xl">Libraries & Frameworks</h1>
+        <p className="text-gray-400 text-sm leading-relaxed"> 
+              
+                <ul className="list-disc">
+    <li>React,Tailwind CSS,Bootstrap</li>
+    <li>Redux Toolkit</li>
+<li>Axios</li>
+  </ul>
+        </p> 
+          </div>
           <div className="rounded-2xl p-6  border border-white-400
                           hover:-translate-y-2 hover:scale-[1.02] hover:border-purple-400
                           hover:shadow-lg hover:shadow-purple-500/20
@@ -63,7 +87,7 @@ Working on real projects has helped me understand how ideas turn into functional
             </p>
           </div>
 
- <div className="rounded-2xl p-6  border border-white-400
+ {/* <div className="rounded-2xl p-6  border border-white-400
                           hover:-translate-y-2 hover:scale-[1.02] hover:border-purple-400
                           hover:shadow-lg hover:shadow-purple-500/20
                           transition-all duration-300 ease-out">
@@ -78,7 +102,7 @@ Working on real projects has helped me understand how ideas turn into functional
               
               Built more then 10 projects
             </p>
-          </div>
+          </div> */}
           <div>
           
 

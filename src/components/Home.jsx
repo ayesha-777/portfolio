@@ -28,7 +28,7 @@ const Hero = () => {
  
   
   <a
-  href="Ayesha Rafiq CV.pdf"
+  href="CV.pdf"
   download="Ayesha Rafiq CV.pdf"
   className="relative inline-block px-10 py-3 font-medium text-white rounded-full
              border border-white-400 overflow-hidden group"
